@@ -1,0 +1,95 @@
+* {
+   box-sizing: border-box;
+
+}
+
+body {
+   margin: 0;
+   padding:0;
+   width: 100%;
+   height: 100%;
+   background-color: #35504f;
+
+}
+
+.autorise {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 450px;
+    height: 300px;
+    border-radius: 13px;
+    background-color: #608888;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 10px 3px; color: #1f2525;
+
+}
+
+.autor {
+    margin: 10px;
+    padding-top: 5px; padding-left: 5px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.log {
+    font-size: 14px;
+    border-radius: 8px;
+    padding-left: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 94%;
+    height: 5vh;
+    box-shadow: 2px 2px 2px 1px; color: #1f2525;
+
+}
+
+.pas {
+    font-size: 14px;
+    border-radius: 8px;
+    padding-left: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 94%;
+    height: 5vh;
+    box-shadow: 2px 2px 2px 1px; color: #1f2525;
+
+}
+
+.comin {
+    font-size: 14px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 12px;
+    width: 45%;
+    height: 5vh;
+    box-shadow: 2px 2px 2px 1px; color: #1f2525;
+
+}
+
+.clear
+   {font-size: 14px;
+    border-radius: 8px;
+    background-color: #d4574e;
+    margin-top: 10px;
+    margin-left: 6px;
+    width: 45%;
+    height: 5vh;
+    box-shadow: 2px 2px 2px 1px; color: #1f2525;
+
+}
+
+.box 
+   {font-size: 16px;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 140px;
+    padding-bottom:  80px;
+   
+}
