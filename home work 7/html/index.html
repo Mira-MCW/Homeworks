@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" type="text/css" >
+    <title>Document</title>
+</head>
+<body>
+   
+   <form action="/submit" method="get">
+    <div class="form-container">
+        
+    
+        <div class="name">
+        <fieldset>
+        <legend> Имя </legend>
+        <div class="fio">
+        <input type="text" id="Surname" name="name" placeholder=" Фамилия ">
+        <input type="text" id="Name" name="name" placeholder=" Имя ">
+        </div>
+        </fieldset>
+        </div>
+     
+      <div class="two-columns">
+
+        <div class="gender">
+        <fieldset>
+        <legend>Пол</legend>
+        <div class="answer">
+       <div class="man">
+        <input type="radio" id="man" name="gender" value="male" >
+        <label for="man"> Мужской</label>
+      </div>
+         <div class="woman">
+        <input type="radio" id="woman" name="gender" value="female">
+        <label for="woman"> Женский</label>
+      </div>
+      <div class="no_answer">
+        <input type="radio" id="no_answer" name="gender" value="no_answer">
+        <label for="no_answer"> Не хочу говорить</label>
+       </div>
+    </div>
+        </fieldset>
+        </div>
+
+        <div class="mailing">
+        <fieldset>
+        <legend>Получать рассылку по </legend>
+        <div class="sms-mail">
+          <div class="email">
+        <input type="checkbox"  name="email" value="yes">
+        <label for="email">E-mail</label>
+           </div>  
+           <div class="sms">  
+        <input type="checkbox" name="SMS" value="yes">
+        <label for="sms">SMS</label>
+            </div> 
+        </div>
+        </fieldset>
+        </div>
+
+     </div>
+
+        <div class="submit-button">
+        <button type="submit"> Отправить  </button>
+        </div>
+    </div>
+</form> 
+</body>
+</html>
