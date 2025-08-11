@@ -1,0 +1,66 @@
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8f8f8;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 350px;
+}
+
+.my-btn {
+    padding: 20px 40px;
+    font-size: 20px;
+    color: #2c2119;
+    background: #ffedba;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid #f1a55d;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 
+        background 1s,
+        color 1s,
+        border-color 1s,
+        box-shadow 1s;
+    box-shadow:  0 2px 5px #4a90e255;
+    outline: none;
+}
+  
+.my-btn:hover {
+    padding: 20px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c2119;
+    background: #f1a55d;
+    border-color: #f1a55d;
+    box-shadow: 0 4px 10px #4a90e255;
+}
+
+.my-btn:active + .pressed-message {
+    opacity: 1;
+    pointer-events: auto;
+}
+    
+.pressed-message {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f1a55d;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 1s;
+    user-select: none;
+}
