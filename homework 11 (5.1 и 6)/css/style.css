@@ -1,0 +1,132 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+}
+
+.sidebar { /*Боковое меню-десктоп*/
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #1b1b1b;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.sidebar button {
+    background-color: #e06f3bc7;
+    border: none;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: left;
+}
+
+.sidebar button i {
+    display: none;
+    margin-right: 10px;
+}
+
+.sidebar button:hover {
+    background-color: #e78b60;
+}
+
+.begin { /*Весь текст*/
+    margin-left: 300px;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.text1, .text2, .text3, .text4, .text5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+        
+.lorem {
+    margin-left:300px;
+    padding: 40px;
+    padding-left: 0px;
+    min-height: 100vh;
+    font-size: 20px;
+    font-style: normal;
+    /*background-color: aquamarine;*/
+}
+
+
+    @media (max-width: 768px) { /*Для планшета*/
+    .sidebar {
+        width: 250px;
+        height: 100vh;
+        background-color: #1b1b1b;
+    }
+    
+    .sidebar button i {
+        display: none;
+        margin-right: 10px;
+    }
+            
+    .lorem {
+        margin-left: 300px;
+    }
+
+    .begin {
+        text-align: left;
+         margin-left: 300px;
+    }
+}
+
+       
+    @media (max-width: 480px) { /*Для мобильного телефона*/
+    .sidebar {
+        width: 130px;
+        height: 100vh;
+        background-color:#1b1b1b;
+;
+        position: static;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .sidebar button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .sidebar button span {
+        display: none;
+    }
+
+    .sidebar button i {
+        display: inline-block;
+        font-size: 24px;
+        margin: auto;
+    }
+
+    .lorem {
+        margin-left: 20px;
+    }
+
+    .begin {
+        text-align: left;
+        margin-left: 20px;
+    }
+}
