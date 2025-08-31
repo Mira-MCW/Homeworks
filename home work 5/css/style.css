@@ -1,0 +1,58 @@
+*{  
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+  margin: 100px;
+  font-family:'Courier New', Courier, monospace;
+  background-color: #fff7ea;
+}
+
+.card-parent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.card-child {
+  flex: 1 1 250px;
+  max-width: 300px;
+  background-color: white;
+  box-shadow: 0 4px 8px #503535;
+  text-align: left;
+  padding: 15px;
+}
+
+.card-child:hover {
+  box-shadow: 0 4px 8px #9c1e1e;
+}
+
+.card-child img {
+  width: 100%;
+  height: auto;
+}
+
+.card-child h3 {
+  margin-top: 10px;
+  color: #681b1b;
+}
+
+.card-child button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  width: 200px;
+  height: 50px;
+  background-color: #503535;
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.card-child button:hover {
+  background-color: #a34040;
+}
