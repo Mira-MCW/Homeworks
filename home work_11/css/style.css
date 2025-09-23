@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #9b9797;
+}
+
+.input_box {
+  margin-top: 150px;
+  max-width: 300px;
+  /*background-color: #fff8dc;*/
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  background-color: #bceebb;*/
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 300px;
+  height: auto;
+}
+
+button {
+  width: 322px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  padding-left: auto;
+  padding-right: auto;
+  background-color: #ecb67d;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#authMessage {
+  margin-top: 20px;
+  font-weight: bold;
+}
