@@ -32,15 +32,27 @@
 максимум 26 символов
 }
 -->
-<form id="registerForm">
-  <input type="text" id="name" placeholder="Your Name">
-  <input type="e-mail" id="email" placeholder="Your E-mail">
-  <input type="text" id="phone" placeholder="Your Phone-number">
-  <input type="password" id="password" placeholder="Your Password">
-  <button type="submit">Register</button>
-  <div id="errorMessage"></div>
-</form>
+<div class="container">
+    <h1>Registration</h1>
+    <form id="registerForm">
+      <label for="name">Your name</label>
+      <input type="text" id="name" placeholder="Enter your name">
+
+      <label for="email">Your e-mail</label>
+      <input type="email" id="email" placeholder="Enter your e-mail">
+
+      <label for="phone">Your Phone-number</label>
+      <input type="text" id="phone" placeholder="Enter your Phone-number">
+
+      <label for="password">Your Password</label>
+      <input type="password" id="password" placeholder="Enter your Password">
+
+      <button type="submit">Register me now!</button>
+      <div id="errorMessage"></div>
+    </form>
+  </div>
 
 <script src="..//javascript/script.js"></script>
 </body>
+
 </html>
