@@ -83,7 +83,7 @@ body {
     color: var(--text-color-default);
     background-color: var(--background-color);
     width: 100%;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 /*-----------Container----------*/
@@ -1291,5 +1291,6 @@ input, button, [type="submit"] {
   }
 
 }
+
 
 
