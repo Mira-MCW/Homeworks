@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+<!-- После реализации основного функционала проекта “Регистрации и Авторизации с помощью localstorage”
+реализовать валидацию инпутов (Имя, Эмейл, Телефон, Пароль) с помощью JS.
+
+Имя {
+Минимум 2 символа
+Максимум 24 символа
+Только буквы
+}
+
+Эмейл {
+Наличие символа@
+Минимум 7 символов 
+}
+
+Телефон {
+Первый символ +
+Максимум 12 чисел
+Минимум 8 чисел
+Только числа
+}
+
+Пароль {
+Минимум 5 символов
+максимум 26 символов
+}
+-->
+<form id="registerForm">
+  <input type="text" id="name" placeholder="Your Name">
+  <input type="e-mail" id="email" placeholder="Your E-mail">
+  <input type="text" id="phone" placeholder="Your Phone-number">
+  <input type="password" id="password" placeholder="Your Password">
+  <button type="submit">Register</button>
+  <div id="errorMessage"></div>
+</form>
+
+<script src="..//javascript/script.js"></script>
+</body>
+</html>
