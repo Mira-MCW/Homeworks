@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//css/style.css" type="text/css" >
+    <title>My Notes</title>
+</head>
+<body>
+<!-- 1. Создайте простую веб-страницу, где пользователь может вводить текст заметки. 
+Рядом с полем ввода должна быть кнопка "Сохранить", которая сохраняет введенный текст 
+в localStorage. Также добавьте блок, в котором будет отображаться последняя сохраненная заметка. 
+При обновлении страницы заметка должна оставаться на месте.-->
+<div class="My_Notes">
+  <h1>My Notes</h1>
+
+  <div class="newNote">
+  <label for="noteInput">Enter your Note:</label>
+  </div>
+
+  <div class="buttons">
+  <input type="text" id="noteInput" placeholder="Please, write something...">
+  <button id="saveNoteButton">Save</button>
+  </div>
+  <div class="lastNote">
+    <div id="lastNote">
+    </div>
+ </div>
+</div>
+  <script src="..//javascript/script.js"></script>
+
+</body>
+</html>
+
+
